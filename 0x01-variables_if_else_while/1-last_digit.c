@@ -1,8 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - A program that prints a number if its negative,positive or equals to zero
+/**
+ * main - Determines if a number is positive,nagatie or zero
  *
  * Return: 0 (Success)
  */
@@ -14,15 +14,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("Last digit of %d is greater than Zero", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("Last digit of %d is equals to zero", n);
+		printf("%d is zero\n", n);
 	}
 	else
 	{
-		printf("Last digit of %d is less than zero", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
