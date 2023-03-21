@@ -12,6 +12,6 @@ int main(void)
 	{
 		putchar(a + 48);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
