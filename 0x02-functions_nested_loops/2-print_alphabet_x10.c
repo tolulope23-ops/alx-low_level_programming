@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Description - 'Prints the alphabet in lowercase ten times'
+ * print_alphabet - Prints the alphabet in lowercase ten times
  *
  * Return: 0 (Success)
  */
