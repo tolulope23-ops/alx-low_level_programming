@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- * print_print_alphabet_x10 - print the alphabet in lowercase ten times
- *
+ * main - Entry point
+ * Description - Prints the alphabet in lowercase ten times
  * Return: 0 (Success)
  */
-
 void print_alphabet_x10(void)
 {
 	int j;
