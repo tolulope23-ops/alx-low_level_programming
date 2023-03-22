@@ -1,3 +1,4 @@
+#include<stdio.h>
 #include"main.h"
 /**
  * print_to_98 - print all nutural numbers
@@ -7,15 +8,22 @@
  */
 void print_to_98(int n)
 {
-	int i;
-
-	for (i = n; i <= 98; i++)
+	if (n >= 98)
 	{
-		_putchar(i);
-		if (i == 98)
+		while (n > 98)
 		{
-			continue;
+			printf("%d, ", n--);
+			printf("%d\n", n);
 		}
-		_putchar(',');
+	}
+
+	else
+
+	{
+		while (n < 98)
+		{
+			printf("%d,", n++);
+			printf("%d\n", n);
+		}
 	}
 }
