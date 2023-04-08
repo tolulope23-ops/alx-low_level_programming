@@ -20,7 +20,7 @@ int _sqrt_recursion(int n)
 
 /**
  * main_sqrt_recursion - Function that recurses a nutural number
- *
+ * @n: the number inputted  to calculate
  *
  * @i: iterator
  * Return: the resulting square root
